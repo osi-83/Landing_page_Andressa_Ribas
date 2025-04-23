@@ -157,9 +157,16 @@ footer {
 
   .carousel-btn {
     font-size: 2rem;
+    
   }
 
   .logo1 {
     width: 280px;
+  }
+}
+
+@media (max-width: 767px) {
+  .carousel-btn {
+    display: none;
   }
 }
